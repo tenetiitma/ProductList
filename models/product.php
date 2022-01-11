@@ -36,7 +36,7 @@ class Product extends Dbconfig {
                 echo '<div class="alert alert-danger"> Please, provide price in numbers </div>';
             }
             if(!is_numeric($size)) {
-                echo '<div class="alert alert-danger"> Please, provide in with numbers </div>';
+                echo '<div class="alert alert-danger"> Please, provide size in numbers </div>';
             }
 
             elseif($this->insert_DVD($sku, $name, $price, $productType, $size)) {
