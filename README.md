@@ -1,1 +1,1 @@
-Link to home page: https://tenepage.planet.ee/index.php
+Link to homepage: https://tenepage.planet.ee/index.php
