@@ -13,7 +13,7 @@ class Product extends Dbconfig {
             echo '<div class="alert alert-danger"> Please, select product type </div>';
         }
 
-        elseif($_POST['type'] === "DVD") {
+        elseif($_POST['type'] === 'DVD') {
             $sku = $db->check($_POST['sku']);
             $name = $db->check($_POST['name']);
             $price = $db->check($_POST['price']);
